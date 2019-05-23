@@ -24,7 +24,7 @@ components:
     memoryLimit: 512Mi
   -
     type: dockerimage
-    image: golang:1.12.4-stretch
+    image: golang:1.12-alpine
     command: ['sleep']
     args: ['infinity']
     env:
