@@ -35,7 +35,7 @@ components:
         value: /tmp/.cache
       - name: PS1
         value: $(echo ${0})\\$
-    memoryLimit: 512Mi
+    memoryLimit: 1024Mi
     endpoints:
       - name: '8080/tcp'
         port: 8080
