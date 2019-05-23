@@ -24,7 +24,7 @@ components:
     memoryLimit: 512Mi
   -
     type: dockerimage
-    dockerimage: golang:1.12.4-stretch
+    image: golang:1.12.4-stretch
     command: ['sleep']
     args: ['infinity']
     env:
@@ -39,4 +39,3 @@ components:
       - name: '8080/tcp'
         port: 8080
     mountSources: true
-
